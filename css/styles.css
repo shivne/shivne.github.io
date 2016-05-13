@@ -1,0 +1,177 @@
+/*----- PORTFOLIO STYLES -----*/
+/*----- COLOR TEMPLATE -----*//*
+.color-primary-0 { color: #5E5757 }
+.color-primary-1 { color: #806969 }
+.color-primary-2 { color: #504848 }
+.color-primary-3 { color: #423A3A }
+.color-primary-4 { color: #302929 }
+*/
+
+/*===== GLOBAL STYLES =====*/
+
+/*===== GLOBAL STYLES =====*/
+
+.container-fluid {
+  padding: 0;
+}
+/*===== NAV STYLES =====*/
+
+.navbar-collapse li {
+  background-color: #5E5757;
+  border-radius: 10%;
+  margin: 22px 6px;
+}
+
+/*===== CAROUSEL STYLES =====*/
+
+.carousel-caption h2 {
+  font-size: 60px;
+  font-weight: 700;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 5px 10px #000;
+}
+.carousel-caption p {
+  font-weight: 700;
+  font-size: 15px;
+  text-shadow: 2px 2px #000;
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+  height: 83vh;
+  width: 100vw;
+}
+.navbar-default {
+  background-color: transparent;
+  border: none;
+}
+#home .smooth-scroll {
+  color: #aaa;
+}
+.navbar-right {
+  padding-right: 125px;
+}
+#ribbon {
+  background-color: #252e30;
+  height: 95px;
+}
+#ribbon .smooth-scroll {
+  font-size: 22px;
+  color: #fff;
+}
+#ribbon .title {
+  margin-top: 0px;
+  padding-bottom: 10px;
+  color: #fff;
+  font-family: 'Roboto', cursive;
+}
+.navbar-brand {
+  padding-top: 8px;
+  margin-top: 20px;
+}
+/*===== STORY STYLES =====*/
+
+#story {
+  background-color: #ddd;
+}
+#story h1 {
+  color: #5E5757;
+  font-family: 'Lobster', cursive;
+  text-shadow: 1px 1px 5px #000;
+  font-size: 80px;
+  margin-bottom: 0;
+  margin-top: 60px;
+}
+#story h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  margin-top: 6px;
+  margin-left: 6px;
+  font-size: 26px;
+}
+#story p {
+  color: #666;
+}
+#carousel-example-generic .carousel-caption img {
+  width: 370px;
+  height: 350px;
+}
+.col-sm-6>p {
+  font-size: 13px;
+}
+
+/*===== PROJECTS STYLES =====*/
+
+#projects {
+  background-image: url('../img/devices.jpg');
+  height: 400px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#projects h1 {
+  color: #506969;
+  font-family: 'Merriweather', sans-serif;
+  font-size: 50px;
+  text-shadow: 1px 1px #fff;
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 15px;
+}
+#project-link {
+  background-color: rgba(0, 0, 0, .5);
+  width: 350px;
+}
+#projects p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  margin-top: 15px;
+  padding-top: 20px;
+}
+/*===== MENU STYLES =====*/
+
+#menu {
+  background-image: url('../img/black_linen.png');
+  min-height: 500px;
+  padding-bottom: 40px;
+}
+#menu .tab-pane {
+  background-color: #444;
+  padding: 10px;
+}
+#menu h3 {
+  font-weight: 700;
+}
+#menu .nav-tabs {
+  background-color: #444;
+  color: #fff;
+}
+.menu-style {
+  font-size: 55px;
+  color: #fff;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  font-weight: 700;
+  padding: 30px 0px;
+  margin: 0;
+}
+/*===== SKILLS STYLES =====*/
+
+.skillsBox {
+  background-color: #ccc;
+}
+.skillsPadding {
+  margin-top: 5px;
+}
+.skillsBorder {
+  background-color: #444;
+}
+.tab-content {
+  padding-bottom: 10px;
+}
+/*===== CONTACT STYLES =====*/
+
+#contact {
+background-color: #252e30;
+color: #fff;
+}
